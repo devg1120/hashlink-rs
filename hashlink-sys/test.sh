@@ -1,0 +1,3 @@
+c++ -O0 -fpermissive -ffunction-sections -fdata-sections -fPIC -g -fno-omit-frame-pointer -m64 -static -I ../vendor/hashlink/src -I ../vendor/hashlink/include/pcre -Wall -Wextra -std=c++11 -o ./build/_deploy/wrapper.o -c wrapper.c 
+#g++ -O0 -ffunction-sections -fdata-sections -fPIC -g -fno-omit-frame-pointer -m64 -static -I ../vendor/hashlink/src -I ../vendor/hashlink/include/pcre -Wall -Wextra -std=c++11 -o ./build/_deploy/wrapper.o -c wrapper.c 
+#gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -fno-omit-frame-pointer -m64 -static -I ../vendor/hashlink/src -I ../vendor/hashlink/include/pcre -Wall -Wextra -std=c++11 -o ./build/_deploy/wrapper.o -c wrapper.c 
