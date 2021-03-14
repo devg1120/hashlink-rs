@@ -10,6 +10,9 @@
 //#include "../vendor/hashlink/src/hl.h"
 //#include "../vendor/hashlink/src/hlc.h"
 //#include "../vendor/hashlink/src/hlmodule.h"
+extern "C" {
+//#include "../vendor/hashlink/src/module.c"
+}
 
 #include "../vendor/hashlink/include/pcre/pcre_chartables.c"
 #include "../vendor/hashlink/include/pcre/pcre_compile.c"
@@ -25,7 +28,15 @@
 #include "../vendor/hashlink/include/pcre/pcre16_ord2utf16.c"
 #include "../vendor/hashlink/include/pcre/pcre16_valid_utf16.c"
 
+extern "C" {
 #include "../vendor/hashlink/src/gc.c"
+#include "../vendor/hashlink/src/code.c"
+//#include "../vendor/hashlink/src/jit.c"
+//#include "../vendor/hashlink/src/module.c"
+//#include "../vendor/hashlink/src/debugger.c"
+//#include "../vendor/hashlink/src/profile.c"
+}
+
 
 #include "../vendor/hashlink/src/std/array.c"
 #include "../vendor/hashlink/src/std/buffer.c"

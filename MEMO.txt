@@ -1,0 +1,6 @@
+
+
+# hashlink-rs/hashlink-sys/build/_deploy$
+nm libhlfull.a  | grep hl_code_read
+0000000000000000 T hl_code_read
+

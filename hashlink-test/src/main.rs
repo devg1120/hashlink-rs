@@ -1,4 +1,4 @@
 fn main() {
     hashlink::test_main();
-    println!("Hello, world!");
+    println!("base Hello, world!");
 }
